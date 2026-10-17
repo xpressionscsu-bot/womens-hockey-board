@@ -1,0 +1,341 @@
+{
+  "poll": {
+    "source": "https://www.uscho.com/rankings/d-i-womens-poll/",
+    "name": "USCHO.com Division I Women's Poll",
+    "poll_date": "2026-10-12",
+    "rows": [
+      {
+        "rank": 1,
+        "team": "Ohio State",
+        "first_place_votes": 20,
+        "record": "6-0-0",
+        "points": 300,
+        "last_rank": 2
+      },
+      {
+        "rank": 2,
+        "team": "Wisconsin",
+        "first_place_votes": 0,
+        "record": "4-2-0",
+        "points": 276,
+        "last_rank": 1
+      },
+      {
+        "rank": 3,
+        "team": "Minnesota",
+        "first_place_votes": 0,
+        "record": "4-0-0",
+        "points": 262,
+        "last_rank": 3
+      },
+      {
+        "rank": 4,
+        "team": "Quinnipiac",
+        "first_place_votes": 0,
+        "record": "5-0-0",
+        "points": 235,
+        "last_rank": 5
+      },
+      {
+        "rank": 5,
+        "team": "Penn State",
+        "first_place_votes": 0,
+        "record": "3-3-0",
+        "points": 185,
+        "last_rank": 4
+      },
+      {
+        "rank": 6,
+        "team": "Northeastern",
+        "first_place_votes": 0,
+        "record": "2-1-0",
+        "points": 182,
+        "last_rank": 7
+      },
+      {
+        "rank": 7,
+        "team": "Princeton",
+        "first_place_votes": 0,
+        "record": "0-0-0",
+        "points": 164,
+        "last_rank": 6
+      },
+      {
+        "rank": 8,
+        "team": "Connecticut",
+        "first_place_votes": 0,
+        "record": "2-2-0",
+        "points": 134,
+        "last_rank": 9
+      },
+      {
+        "rank": 9,
+        "team": "Colgate",
+        "first_place_votes": 0,
+        "record": "4-0-0",
+        "points": 129,
+        "last_rank": 14
+      },
+      {
+        "rank": 10,
+        "team": "St. Cloud State",
+        "first_place_votes": 0,
+        "record": "4-2-0",
+        "points": 125,
+        "last_rank": 8
+      },
+      {
+        "rank": 11,
+        "team": "Clarkson",
+        "first_place_votes": 0,
+        "record": "4-2-0",
+        "points": 94,
+        "last_rank": 13
+      },
+      {
+        "rank": 12,
+        "team": "Minnesota Duluth",
+        "first_place_votes": 0,
+        "record": "4-2-0",
+        "points": 82,
+        "last_rank": 10
+      },
+      {
+        "rank": 12,
+        "team": "Yale",
+        "first_place_votes": 0,
+        "record": "0-0-0",
+        "points": 82,
+        "last_rank": 11
+      },
+      {
+        "rank": 14,
+        "team": "Cornell",
+        "first_place_votes": 0,
+        "record": "0-0-0",
+        "points": 80,
+        "last_rank": 12
+      },
+      {
+        "rank": 15,
+        "team": "Vermont",
+        "first_place_votes": 0,
+        "record": "3-1-0",
+        "points": 35,
+        "last_rank": 15
+      }
+    ],
+    "status": "ok",
+    "updated_at": "2026-10-17T15:16:33+00:00"
+  },
+  "standings": {
+    "source": "https://wcha.com/standings.aspx?standings=7&path=whockey",
+    "name": "WCHA Women's Standings",
+    "season": "2026-27",
+    "rows": [
+      {
+        "rank": 1,
+        "team": "Ohio State",
+        "conference": {
+          "gp": 5,
+          "pts": 12,
+          "pt_pct": 0.8,
+          "w": 4,
+          "l": 1,
+          "t": 0,
+          "ow": 0,
+          "ol": 0,
+          "sow": 0,
+          "gf": 19,
+          "ga": 14
+        },
+        "overall": {
+          "gp": 7,
+          "w": 6,
+          "l": 1,
+          "t": 0,
+          "gf": 23,
+          "ga": 16
+        }
+      },
+      {
+        "rank": 2,
+        "team": "Minnesota",
+        "conference": {
+          "gp": 3,
+          "pts": 9,
+          "pt_pct": 1.0,
+          "w": 3,
+          "l": 0,
+          "t": 0,
+          "ow": 0,
+          "ol": 0,
+          "sow": 0,
+          "gf": 16,
+          "ga": 7
+        },
+        "overall": {
+          "gp": 5,
+          "w": 5,
+          "l": 0,
+          "t": 0,
+          "gf": 24,
+          "ga": 9
+        }
+      },
+      {
+        "rank": 3,
+        "team": "St. Cloud State",
+        "conference": {
+          "gp": 3,
+          "pts": 8,
+          "pt_pct": 0.889,
+          "w": 3,
+          "l": 0,
+          "t": 0,
+          "ow": 1,
+          "ol": 0,
+          "sow": 0,
+          "gf": 11,
+          "ga": 4
+        },
+        "overall": {
+          "gp": 7,
+          "w": 5,
+          "l": 2,
+          "t": 0,
+          "gf": 22,
+          "ga": 14
+        }
+      },
+      {
+        "rank": 4,
+        "team": "Minnesota Duluth",
+        "conference": {
+          "gp": 3,
+          "pts": 6,
+          "pt_pct": 0.667,
+          "w": 2,
+          "l": 1,
+          "t": 0,
+          "ow": 0,
+          "ol": 0,
+          "sow": 0,
+          "gf": 7,
+          "ga": 2
+        },
+        "overall": {
+          "gp": 7,
+          "w": 5,
+          "l": 2,
+          "t": 0,
+          "gf": 16,
+          "ga": 7
+        }
+      },
+      {
+        "rank": 5,
+        "team": "St. Thomas",
+        "conference": {
+          "gp": 5,
+          "pts": 4,
+          "pt_pct": 0.267,
+          "w": 1,
+          "l": 4,
+          "t": 0,
+          "ow": 0,
+          "ol": 1,
+          "sow": 0,
+          "gf": 8,
+          "ga": 17
+        },
+        "overall": {
+          "gp": 7,
+          "w": 3,
+          "l": 4,
+          "t": 0,
+          "gf": 18,
+          "ga": 20
+        }
+      },
+      {
+        "rank": 6,
+        "team": "Wisconsin",
+        "conference": {
+          "gp": 3,
+          "pts": 3,
+          "pt_pct": 0.333,
+          "w": 1,
+          "l": 2,
+          "t": 0,
+          "ow": 0,
+          "ol": 0,
+          "sow": 0,
+          "gf": 9,
+          "ga": 8
+        },
+        "overall": {
+          "gp": 7,
+          "w": 5,
+          "l": 2,
+          "t": 0,
+          "gf": 32,
+          "ga": 11
+        }
+      },
+      {
+        "rank": 7,
+        "team": "Bemidji State",
+        "conference": {
+          "gp": 3,
+          "pts": 0,
+          "pt_pct": 0.0,
+          "w": 0,
+          "l": 3,
+          "t": 0,
+          "ow": 0,
+          "ol": 0,
+          "sow": 0,
+          "gf": 5,
+          "ga": 13
+        },
+        "overall": {
+          "gp": 5,
+          "w": 1,
+          "l": 4,
+          "t": 0,
+          "gf": 11,
+          "ga": 18
+        }
+      },
+      {
+        "rank": 8,
+        "team": "Minnesota State",
+        "conference": {
+          "gp": 3,
+          "pts": 0,
+          "pt_pct": 0.0,
+          "w": 0,
+          "l": 3,
+          "t": 0,
+          "ow": 0,
+          "ol": 0,
+          "sow": 0,
+          "gf": 3,
+          "ga": 13
+        },
+        "overall": {
+          "gp": 5,
+          "w": 2,
+          "l": 3,
+          "t": 0,
+          "gf": 12,
+          "ga": 17
+        }
+      }
+    ],
+    "status": "ok",
+    "updated_at": "2026-10-17T15:16:33+00:00"
+  },
+  "generated_at": "2026-10-17T15:16:33+00:00"
+}
