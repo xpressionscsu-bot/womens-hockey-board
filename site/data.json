@@ -138,205 +138,205 @@
         "rank": 1,
         "team": "Ohio State",
         "conference": {
-          "gp": 5,
-          "pts": 12,
-          "pt_pct": 0.8,
-          "w": 4,
+          "gp": 6,
+          "pts": 15,
+          "pt_pct": 0.833,
+          "w": 5,
           "l": 1,
           "t": 0,
           "ow": 0,
           "ol": 0,
           "sow": 0,
-          "gf": 19,
-          "ga": 14
+          "gf": 25,
+          "ga": 19
         },
         "overall": {
-          "gp": 7,
-          "w": 6,
+          "gp": 8,
+          "w": 7,
           "l": 1,
           "t": 0,
-          "gf": 23,
-          "ga": 16
+          "gf": 29,
+          "ga": 21
         }
       },
       {
         "rank": 2,
-        "team": "Minnesota",
-        "conference": {
-          "gp": 3,
-          "pts": 9,
-          "pt_pct": 1.0,
-          "w": 3,
-          "l": 0,
-          "t": 0,
-          "ow": 0,
-          "ol": 0,
-          "sow": 0,
-          "gf": 16,
-          "ga": 7
-        },
-        "overall": {
-          "gp": 5,
-          "w": 5,
-          "l": 0,
-          "t": 0,
-          "gf": 24,
-          "ga": 9
-        }
-      },
-      {
-        "rank": 3,
         "team": "St. Cloud State",
         "conference": {
-          "gp": 3,
-          "pts": 8,
-          "pt_pct": 0.889,
-          "w": 3,
+          "gp": 4,
+          "pts": 11,
+          "pt_pct": 0.917,
+          "w": 4,
           "l": 0,
           "t": 0,
           "ow": 1,
           "ol": 0,
           "sow": 0,
-          "gf": 11,
+          "gf": 12,
           "ga": 4
         },
         "overall": {
-          "gp": 7,
-          "w": 5,
+          "gp": 8,
+          "w": 6,
           "l": 2,
           "t": 0,
-          "gf": 22,
+          "gf": 23,
           "ga": 14
+        }
+      },
+      {
+        "rank": 3,
+        "team": "Minnesota",
+        "conference": {
+          "gp": 4,
+          "pts": 9,
+          "pt_pct": 0.75,
+          "w": 3,
+          "l": 1,
+          "t": 0,
+          "ow": 0,
+          "ol": 0,
+          "sow": 0,
+          "gf": 21,
+          "ga": 13
+        },
+        "overall": {
+          "gp": 6,
+          "w": 5,
+          "l": 1,
+          "t": 0,
+          "gf": 29,
+          "ga": 15
         }
       },
       {
         "rank": 4,
         "team": "Minnesota Duluth",
         "conference": {
-          "gp": 3,
-          "pts": 6,
-          "pt_pct": 0.667,
-          "w": 2,
+          "gp": 4,
+          "pts": 9,
+          "pt_pct": 0.75,
+          "w": 3,
           "l": 1,
           "t": 0,
           "ow": 0,
           "ol": 0,
           "sow": 0,
-          "gf": 7,
+          "gf": 12,
           "ga": 2
         },
         "overall": {
-          "gp": 7,
-          "w": 5,
+          "gp": 8,
+          "w": 6,
           "l": 2,
           "t": 0,
-          "gf": 16,
+          "gf": 21,
           "ga": 7
         }
       },
       {
         "rank": 5,
-        "team": "St. Thomas",
-        "conference": {
-          "gp": 5,
-          "pts": 4,
-          "pt_pct": 0.267,
-          "w": 1,
-          "l": 4,
-          "t": 0,
-          "ow": 0,
-          "ol": 1,
-          "sow": 0,
-          "gf": 8,
-          "ga": 17
-        },
-        "overall": {
-          "gp": 7,
-          "w": 3,
-          "l": 4,
-          "t": 0,
-          "gf": 18,
-          "ga": 20
-        }
-      },
-      {
-        "rank": 6,
         "team": "Wisconsin",
         "conference": {
-          "gp": 3,
-          "pts": 3,
-          "pt_pct": 0.333,
-          "w": 1,
+          "gp": 4,
+          "pts": 6,
+          "pt_pct": 0.5,
+          "w": 2,
           "l": 2,
           "t": 0,
           "ow": 0,
           "ol": 0,
           "sow": 0,
-          "gf": 9,
-          "ga": 8
+          "gf": 21,
+          "ga": 9
         },
         "overall": {
-          "gp": 7,
-          "w": 5,
+          "gp": 8,
+          "w": 6,
           "l": 2,
           "t": 0,
-          "gf": 32,
-          "ga": 11
+          "gf": 44,
+          "ga": 12
+        }
+      },
+      {
+        "rank": 6,
+        "team": "St. Thomas",
+        "conference": {
+          "gp": 6,
+          "pts": 4,
+          "pt_pct": 0.222,
+          "w": 1,
+          "l": 5,
+          "t": 0,
+          "ow": 0,
+          "ol": 1,
+          "sow": 0,
+          "gf": 8,
+          "ga": 18
+        },
+        "overall": {
+          "gp": 8,
+          "w": 3,
+          "l": 5,
+          "t": 0,
+          "gf": 18,
+          "ga": 21
         }
       },
       {
         "rank": 7,
         "team": "Bemidji State",
         "conference": {
-          "gp": 3,
+          "gp": 4,
           "pts": 0,
           "pt_pct": 0.0,
           "w": 0,
-          "l": 3,
+          "l": 4,
           "t": 0,
           "ow": 0,
           "ol": 0,
           "sow": 0,
           "gf": 5,
-          "ga": 13
+          "ga": 18
         },
         "overall": {
-          "gp": 5,
+          "gp": 6,
           "w": 1,
-          "l": 4,
+          "l": 5,
           "t": 0,
           "gf": 11,
-          "ga": 18
+          "ga": 23
         }
       },
       {
         "rank": 8,
         "team": "Minnesota State",
         "conference": {
-          "gp": 3,
+          "gp": 4,
           "pts": 0,
           "pt_pct": 0.0,
           "w": 0,
-          "l": 3,
+          "l": 4,
           "t": 0,
           "ow": 0,
           "ol": 0,
           "sow": 0,
-          "gf": 3,
-          "ga": 13
+          "gf": 4,
+          "ga": 25
         },
         "overall": {
-          "gp": 5,
+          "gp": 6,
           "w": 2,
-          "l": 3,
+          "l": 4,
           "t": 0,
-          "gf": 12,
-          "ga": 17
+          "gf": 13,
+          "ga": 29
         }
       }
     ],
     "status": "ok",
-    "updated_at": "2026-10-17T15:16:33+00:00"
+    "updated_at": "2026-10-18T11:35:23+00:00"
   },
-  "generated_at": "2026-10-17T16:32:42+00:00"
+  "generated_at": "2026-10-18T11:35:23+00:00"
 }
