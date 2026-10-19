@@ -59,6 +59,19 @@ def record_to_wlt(text):
     return {"w": nums[0], "l": nums[1], "t": nums[2]}
 
 
+def wlt_text(d):
+    """{'w': 4, 'l': 1, 't': 0} -> '4-1-0' (None if any part is missing)."""
+    vals = [d.get("w"), d.get("l"), d.get("t")]
+    return None if any(v is None for v in vals) else "-".join(str(v) for v in vals)
+
+
+def combined_text(wlt, ow, ol, sw):
+    """'4-1-0' plus overtime wins, overtime losses, shootout wins -> '4-1-0 (0-0-0)'."""
+    if wlt is None or None in (ow, ol, sw):
+        return None
+    return f"{wlt} ({ow}-{ol}-{sw})"
+
+
 def header_cells(table):
     row = table.select_one("thead tr:last-of-type") or table.find("tr")
     return [clean(c.get_text()) for c in row.find_all(["th", "td"])] if row else []
@@ -112,15 +125,19 @@ def parse_wcha(html):
         o_gf_ga = split_pair(txt("ogfga")) or [None, None]
         rec = record_to_wlt(txt("rec"))
         orec = record_to_wlt(txt("orec"))
+        conf = {
+            "gp": to_int(txt("gp")), "pts": to_int(txt("pts")), "pt_pct": to_float(txt("ptpct")),
+            **rec, "ow": ow_ol[0], "ol": ow_ol[1], "sow": to_int(txt("sow")),
+            "gf": gf_ga[0], "ga": gf_ga[1],
+        }
+        overall = {"gp": to_int(txt("ogp")), **orec, "gf": o_gf_ga[0], "ga": o_gf_ga[1]}
+        conf["combined"] = combined_text(wlt_text(conf), conf["ow"], conf["ol"], conf["sow"])
+        overall["combined"] = wlt_text(overall)
         rows.append({
             "rank": len(rows) + 1,
             "team": team_text(cells[col["team"]]),
-            "conference": {
-                "gp": to_int(txt("gp")), "pts": to_int(txt("pts")), "pt_pct": to_float(txt("ptpct")),
-                **rec, "ow": ow_ol[0], "ol": ow_ol[1], "sow": to_int(txt("sow")),
-                "gf": gf_ga[0], "ga": gf_ga[1],
-            },
-            "overall": {"gp": to_int(txt("ogp")), **orec, "gf": o_gf_ga[0], "ga": o_gf_ga[1]},
+            "conference": conf,
+            "overall": overall,
         })
 
     if len(rows) < 6:
