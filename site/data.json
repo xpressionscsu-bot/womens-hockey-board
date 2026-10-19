@@ -2,132 +2,131 @@
   "poll": {
     "source": "https://www.uscho.com/rankings/d-i-womens-poll/",
     "name": "USCHO.com Division I Women's Poll",
-    "poll_date": "2026-10-12",
+    "poll_date": "2026-10-19",
     "rows": [
       {
         "rank": 1,
         "team": "Ohio State",
-        "first_place_votes": 20,
-        "record": "6-0-0",
-        "points": 300,
-        "last_rank": 2
-      },
-      {
-        "rank": 2,
-        "team": "Wisconsin",
-        "first_place_votes": 0,
-        "record": "4-2-0",
-        "points": 276,
+        "first_place_votes": 18,
+        "record": "7-1-0",
+        "points": 298,
         "last_rank": 1
       },
       {
-        "rank": 3,
+        "rank": 2,
         "team": "Minnesota",
-        "first_place_votes": 0,
-        "record": "4-0-0",
-        "points": 262,
+        "first_place_votes": 1,
+        "record": "5-1-0",
+        "points": 275,
         "last_rank": 3
       },
       {
+        "rank": 3,
+        "team": "Wisconsin",
+        "first_place_votes": 1,
+        "record": "6-2-0",
+        "points": 267,
+        "last_rank": 2
+      },
+      {
         "rank": 4,
-        "team": "Quinnipiac",
+        "team": "Northeastern",
         "first_place_votes": 0,
-        "record": "5-0-0",
-        "points": 235,
-        "last_rank": 5
+        "record": "3-1-1",
+        "points": 221,
+        "last_rank": 6
       },
       {
         "rank": 5,
-        "team": "Penn State",
+        "team": "Quinnipiac",
         "first_place_votes": 0,
-        "record": "3-3-0",
-        "points": 185,
+        "record": "5-1-1",
+        "points": 206,
         "last_rank": 4
       },
       {
         "rank": 6,
-        "team": "Northeastern",
+        "team": "Penn State",
         "first_place_votes": 0,
-        "record": "2-1-0",
-        "points": 182,
-        "last_rank": 7
+        "record": "5-3-0",
+        "points": 178,
+        "last_rank": 5
       },
       {
         "rank": 7,
         "team": "Princeton",
         "first_place_votes": 0,
-        "record": "0-0-0",
-        "points": 164,
-        "last_rank": 6
+        "record": "2-0-0",
+        "points": 175,
+        "last_rank": 7
       },
       {
         "rank": 8,
-        "team": "Connecticut",
+        "team": "Colgate",
         "first_place_votes": 0,
-        "record": "2-2-0",
-        "points": 134,
+        "record": "6-0-0",
+        "points": 154,
         "last_rank": 9
       },
       {
         "rank": 9,
-        "team": "Colgate",
-        "first_place_votes": 0,
-        "record": "4-0-0",
-        "points": 129,
-        "last_rank": 14
-      },
-      {
-        "rank": 10,
         "team": "St. Cloud State",
         "first_place_votes": 0,
-        "record": "4-2-0",
-        "points": 125,
-        "last_rank": 8
-      },
-      {
-        "rank": 11,
-        "team": "Clarkson",
-        "first_place_votes": 0,
-        "record": "4-2-0",
-        "points": 94,
-        "last_rank": 13
-      },
-      {
-        "rank": 12,
-        "team": "Minnesota Duluth",
-        "first_place_votes": 0,
-        "record": "4-2-0",
-        "points": 82,
+        "record": "6-2-0",
+        "points": 116,
         "last_rank": 10
       },
       {
-        "rank": 12,
-        "team": "Yale",
+        "rank": 10,
+        "team": "Clarkson",
         "first_place_votes": 0,
-        "record": "0-0-0",
-        "points": 82,
+        "record": "6-2-0",
+        "points": 112,
         "last_rank": 11
       },
       {
-        "rank": 14,
+        "rank": 11,
+        "team": "Connecticut",
+        "first_place_votes": 0,
+        "record": "2-4-0",
+        "points": 111,
+        "last_rank": 8
+      },
+      {
+        "rank": 12,
         "team": "Cornell",
         "first_place_votes": 0,
+        "record": "2-0-0",
+        "points": 101,
+        "last_rank": 14
+      },
+      {
+        "rank": 13,
+        "team": "Minnesota Duluth",
+        "first_place_votes": 0,
+        "record": "6-2-0",
+        "points": 91,
+        "last_rank": 12
+      },
+      {
+        "rank": 14,
+        "team": "Yale",
+        "first_place_votes": 0,
         "record": "0-0-0",
-        "points": 80,
+        "points": 36,
         "last_rank": 12
       },
       {
         "rank": 15,
         "team": "Vermont",
         "first_place_votes": 0,
-        "record": "3-1-0",
-        "points": 35,
+        "record": "3-3-0",
+        "points": 30,
         "last_rank": 15
       }
     ],
-    "status": "stale",
-    "updated_at": "2026-10-19T11:40:13+00:00",
-    "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.uscho.com/rankings/d-i-womens-poll/\", waiting until \"networkidle\"\n"
+    "status": "ok",
+    "updated_at": "2026-10-19T16:08:32+00:00"
   },
   "standings": {
     "source": "https://wcha.com/standings.aspx?standings=7&path=whockey",
@@ -338,5 +337,5 @@
     "status": "ok",
     "updated_at": "2026-10-18T11:35:23+00:00"
   },
-  "generated_at": "2026-10-19T15:39:35+00:00"
+  "generated_at": "2026-10-19T16:08:33+00:00"
 }
