@@ -72,6 +72,12 @@ def combined_text(wlt, ow, ol, sw):
     return f"{wlt} ({ow}-{ol}-{sw})"
 
 
+def gf_ga_text(d):
+    """{'gf': 19, 'ga': 14} -> '19-14' (None if either is missing)."""
+    gf, ga = d.get("gf"), d.get("ga")
+    return None if gf is None or ga is None else f"{gf}-{ga}"
+
+
 def header_cells(table):
     row = table.select_one("thead tr:last-of-type") or table.find("tr")
     return [clean(c.get_text()) for c in row.find_all(["th", "td"])] if row else []
@@ -133,6 +139,8 @@ def parse_wcha(html):
         overall = {"gp": to_int(txt("ogp")), **orec, "gf": o_gf_ga[0], "ga": o_gf_ga[1]}
         conf["combined"] = combined_text(wlt_text(conf), conf["ow"], conf["ol"], conf["sow"])
         overall["combined"] = wlt_text(overall)
+        conf["gf_ga"] = gf_ga_text(conf)
+        overall["gf_ga"] = gf_ga_text(overall)
         rows.append({
             "rank": len(rows) + 1,
             "team": team_text(cells[col["team"]]),
