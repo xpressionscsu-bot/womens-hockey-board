@@ -125,9 +125,8 @@
         "last_rank": 15
       }
     ],
-    "status": "stale",
-    "updated_at": "2026-10-19T16:08:32+00:00",
-    "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.uscho.com/rankings/d-i-womens-poll/\", waiting until \"networkidle\"\n"
+    "status": "ok",
+    "updated_at": "2026-10-19T21:12:18+00:00"
   },
   "standings": {
     "source": "https://wcha.com/standings.aspx?standings=7&path=whockey",
@@ -148,7 +147,8 @@
           "ol": 0,
           "sow": 0,
           "gf": 25,
-          "ga": 19
+          "ga": 19,
+          "combined": "5-1-0 (0-0-0)"
         },
         "overall": {
           "gp": 8,
@@ -156,7 +156,8 @@
           "l": 1,
           "t": 0,
           "gf": 29,
-          "ga": 21
+          "ga": 21,
+          "combined": "7-1-0"
         }
       },
       {
@@ -173,7 +174,8 @@
           "ol": 0,
           "sow": 0,
           "gf": 12,
-          "ga": 4
+          "ga": 4,
+          "combined": "4-0-0 (1-0-0)"
         },
         "overall": {
           "gp": 8,
@@ -181,7 +183,8 @@
           "l": 2,
           "t": 0,
           "gf": 23,
-          "ga": 14
+          "ga": 14,
+          "combined": "6-2-0"
         }
       },
       {
@@ -198,7 +201,8 @@
           "ol": 0,
           "sow": 0,
           "gf": 21,
-          "ga": 13
+          "ga": 13,
+          "combined": "3-1-0 (0-0-0)"
         },
         "overall": {
           "gp": 6,
@@ -206,7 +210,8 @@
           "l": 1,
           "t": 0,
           "gf": 29,
-          "ga": 15
+          "ga": 15,
+          "combined": "5-1-0"
         }
       },
       {
@@ -223,7 +228,8 @@
           "ol": 0,
           "sow": 0,
           "gf": 12,
-          "ga": 2
+          "ga": 2,
+          "combined": "3-1-0 (0-0-0)"
         },
         "overall": {
           "gp": 8,
@@ -231,7 +237,8 @@
           "l": 2,
           "t": 0,
           "gf": 21,
-          "ga": 7
+          "ga": 7,
+          "combined": "6-2-0"
         }
       },
       {
@@ -248,7 +255,8 @@
           "ol": 0,
           "sow": 0,
           "gf": 21,
-          "ga": 9
+          "ga": 9,
+          "combined": "2-2-0 (0-0-0)"
         },
         "overall": {
           "gp": 8,
@@ -256,7 +264,8 @@
           "l": 2,
           "t": 0,
           "gf": 44,
-          "ga": 12
+          "ga": 12,
+          "combined": "6-2-0"
         }
       },
       {
@@ -273,7 +282,8 @@
           "ol": 1,
           "sow": 0,
           "gf": 8,
-          "ga": 18
+          "ga": 18,
+          "combined": "1-5-0 (0-1-0)"
         },
         "overall": {
           "gp": 8,
@@ -281,7 +291,8 @@
           "l": 5,
           "t": 0,
           "gf": 18,
-          "ga": 21
+          "ga": 21,
+          "combined": "3-5-0"
         }
       },
       {
@@ -298,7 +309,8 @@
           "ol": 0,
           "sow": 0,
           "gf": 5,
-          "ga": 18
+          "ga": 18,
+          "combined": "0-4-0 (0-0-0)"
         },
         "overall": {
           "gp": 6,
@@ -306,7 +318,8 @@
           "l": 5,
           "t": 0,
           "gf": 11,
-          "ga": 23
+          "ga": 23,
+          "combined": "1-5-0"
         }
       },
       {
@@ -323,7 +336,8 @@
           "ol": 0,
           "sow": 0,
           "gf": 4,
-          "ga": 25
+          "ga": 25,
+          "combined": "0-4-0 (0-0-0)"
         },
         "overall": {
           "gp": 6,
@@ -331,12 +345,13 @@
           "l": 4,
           "t": 0,
           "gf": 13,
-          "ga": 29
+          "ga": 29,
+          "combined": "2-4-0"
         }
       }
     ],
     "status": "ok",
-    "updated_at": "2026-10-18T11:35:23+00:00"
+    "updated_at": "2026-10-19T21:12:18+00:00"
   },
-  "generated_at": "2026-10-19T19:59:17+00:00"
+  "generated_at": "2026-10-19T21:12:18+00:00"
 }
