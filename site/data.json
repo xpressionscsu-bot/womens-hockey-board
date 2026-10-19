@@ -125,8 +125,9 @@
         "last_rank": 15
       }
     ],
-    "status": "ok",
-    "updated_at": "2026-10-19T11:40:13+00:00"
+    "status": "stale",
+    "updated_at": "2026-10-19T11:40:13+00:00",
+    "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.uscho.com/rankings/d-i-womens-poll/\", waiting until \"networkidle\"\n"
   },
   "standings": {
     "source": "https://wcha.com/standings.aspx?standings=7&path=whockey",
@@ -337,5 +338,5 @@
     "status": "ok",
     "updated_at": "2026-10-18T11:35:23+00:00"
   },
-  "generated_at": "2026-10-19T11:40:14+00:00"
+  "generated_at": "2026-10-19T15:39:35+00:00"
 }
