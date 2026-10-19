@@ -172,16 +172,16 @@ function renderStandings(st, rank) {
     return '<tr><td class="rk">' + esc(r.rank) + '</td><td class="l team">' + esc(r.team) + "</td>" +
       "<td>" + nat + "</td>" +
       "<td>" + esc(dash(c.gp)) + '</td><td class="pts">' + esc(dash(c.pts)) + "</td>" +
-      "<td>" + esc(c.w + "-" + c.l + "-" + c.t) + "</td><td>" + pct(c.pt_pct) + "</td>" +
+      "<td>" + esc(c.w + "-" + c.l + "-" + c.t) + "</td><td>" + esc(dash(c.ow)) + "</td><td>" + esc(dash(c.ol)) + "</td><td>" + esc(dash(c.sow)) + "</td><td>" + pct(c.pt_pct) + "</td>" +
       "<td>" + esc(c.gf + "-" + c.ga) + "</td>" +
       "<td>" + esc(dash(o.gp)) + "</td><td>" + esc(o.w + "-" + o.l + "-" + o.t) + "</td>" +
       "<td>" + esc(o.gf + "-" + o.ga) + "</td></tr>";
   }).join("");
   return '<div class="scroll"><table><thead>' +
-    '<tr><th colspan="3"></th><th class="grp" colspan="5">Conference</th><th class="grp" colspan="3">Overall</th></tr>' +
-    '<tr><th>#</th><th class="l">Team</th><th>USCHO</th><th>GP</th><th>Pts</th><th>W-L-T</th><th>PT%</th><th>GF-GA</th><th>GP</th><th>W-L-T</th><th>GF-GA</th></tr>' +
+    '<tr><th colspan="3"></th><th class="grp" colspan="8">Conference</th><th class="grp" colspan="3">Overall</th></tr>' +
+    '<tr><th>#</th><th class="l">Team</th><th>USCHO</th><th>GP</th><th>Pts</th><th>W-L-T</th><th>OW</th><th>OL</th><th>SOW</th><th>PT%</th><th>GF-GA</th><th>GP</th><th>W-L-T</th><th>GF-GA</th></tr>' +
     "</thead><tbody>" + body + "</tbody></table></div>" + staleNote(st) +
-    '<div class="note"><p>League games are worth 3 points. Teams are listed in the order the WCHA publishes them.</p></div>';
+    '<div class="note"><p>OW and OL are overtime wins and losses. SOW is shootout wins. All three are already counted in W-L-T. League games are worth 3 points. Teams are listed in the order the WCHA publishes them.</p></div>';
 }
 
 function render(data) {
