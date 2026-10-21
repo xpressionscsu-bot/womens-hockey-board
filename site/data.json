@@ -7,6 +7,7 @@
       {
         "rank": 1,
         "team": "Ohio State",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Ohio State.png",
         "first_place_votes": 18,
         "record": "7-1-0",
         "points": 298,
@@ -15,6 +16,7 @@
       {
         "rank": 2,
         "team": "Minnesota",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Minnesota.png",
         "first_place_votes": 1,
         "record": "5-1-0",
         "points": 275,
@@ -23,6 +25,7 @@
       {
         "rank": 3,
         "team": "Wisconsin",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Wisconsin.png",
         "first_place_votes": 1,
         "record": "6-2-0",
         "points": 267,
@@ -31,6 +34,7 @@
       {
         "rank": 4,
         "team": "Northeastern",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Northeastern.png",
         "first_place_votes": 0,
         "record": "3-1-1",
         "points": 221,
@@ -39,6 +43,7 @@
       {
         "rank": 5,
         "team": "Quinnipiac",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Quinnipiac.png",
         "first_place_votes": 0,
         "record": "5-1-1",
         "points": 206,
@@ -47,6 +52,7 @@
       {
         "rank": 6,
         "team": "Penn State",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Penn State.png",
         "first_place_votes": 0,
         "record": "5-3-0",
         "points": 178,
@@ -55,6 +61,7 @@
       {
         "rank": 7,
         "team": "Princeton",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Princeton.png",
         "first_place_votes": 0,
         "record": "2-0-0",
         "points": 175,
@@ -63,6 +70,7 @@
       {
         "rank": 8,
         "team": "Colgate",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Colgate.png",
         "first_place_votes": 0,
         "record": "6-0-0",
         "points": 154,
@@ -71,6 +79,7 @@
       {
         "rank": 9,
         "team": "St. Cloud State",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\St. Cloud State.png",
         "first_place_votes": 0,
         "record": "6-2-0",
         "points": 116,
@@ -79,6 +88,7 @@
       {
         "rank": 10,
         "team": "Clarkson",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Clarkson.png",
         "first_place_votes": 0,
         "record": "6-2-0",
         "points": 112,
@@ -87,6 +97,7 @@
       {
         "rank": 11,
         "team": "Connecticut",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Connecticut.png",
         "first_place_votes": 0,
         "record": "2-4-0",
         "points": 111,
@@ -95,6 +106,7 @@
       {
         "rank": 12,
         "team": "Cornell",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Cornell.png",
         "first_place_votes": 0,
         "record": "2-0-0",
         "points": 101,
@@ -103,6 +115,7 @@
       {
         "rank": 13,
         "team": "Minnesota Duluth",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Minnesota Duluth.png",
         "first_place_votes": 0,
         "record": "6-2-0",
         "points": 91,
@@ -111,6 +124,7 @@
       {
         "rank": 14,
         "team": "Yale",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Yale.png",
         "first_place_votes": 0,
         "record": "0-0-0",
         "points": 36,
@@ -119,15 +133,15 @@
       {
         "rank": 15,
         "team": "Vermont",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Vermont.png",
         "first_place_votes": 0,
         "record": "3-3-0",
         "points": 30,
         "last_rank": 15
       }
     ],
-    "status": "stale",
-    "updated_at": "2026-10-20T23:49:18+00:00",
-    "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.uscho.com/rankings/d-i-womens-poll/\", waiting until \"networkidle\"\n"
+    "status": "ok",
+    "updated_at": "2026-10-21T22:15:35+00:00"
   },
   "standings": {
     "source": "https://wcha.com/standings.aspx?standings=7&path=whockey",
@@ -370,5 +384,5 @@
     "status": "ok",
     "updated_at": "2026-10-19T21:45:03+00:00"
   },
-  "generated_at": "2026-10-21T11:41:25+00:00"
+  "generated_at": "2026-10-21T22:15:35+00:00"
 }
