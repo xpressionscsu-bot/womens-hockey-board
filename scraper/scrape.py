@@ -25,6 +25,11 @@ WCHA_URL = os.environ.get("WCHA_URL") or "https://wcha.com/standings.aspx?standi
 USCHO_URL = os.environ.get("USCHO_URL") or "https://www.uscho.com/rankings/d-i-womens-poll/"
 UA = "Mozilla/5.0 (compatible; WomensHockeyBoard/1.0; personal project)"
 
+# Folder that holds one image per team, named after the team (for example "Ohio State.png").
+# Change these two lines if the folder or file type ever moves.
+IMAGE_DIR = "D:\\HOCKEY\\Images\\TEAM COLORS"
+IMAGE_EXT = ".png"
+
 MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December"
 
 
@@ -70,6 +75,12 @@ def combined_text(wlt, ow, ol, sw):
     if wlt is None or None in (ow, ol, sw):
         return None
     return f"{wlt} ({ow}-{ol}-{sw})"
+
+
+def team_image_path(team):
+    """Build the Windows path to a team's image file from the team name."""
+    safe = re.sub(r'[\\/:*?"<>|]', "", team).strip()  # characters Windows does not allow in file names
+    return IMAGE_DIR.rstrip("\\") + "\\" + safe + IMAGE_EXT
 
 
 def gf_ga_text(d):
@@ -204,6 +215,7 @@ def parse_uscho(html):
         rows.append({
             "rank": to_int(get("rank"), len(rows) + 1),
             "team": team,
+            "image_path": team_image_path(team),
             "first_place_votes": fpv or 0,
             "record": get("record") or None,
             "points": to_int(get("pts")),
