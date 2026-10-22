@@ -83,12 +83,17 @@ def team_image_path(team, suffix=""):
     return IMAGE_DIR.rstrip("\\") + "\\" + safe + suffix + IMAGE_EXT
 
 
+# Month names as newspapers abbreviate them: short with a period, except March through July.
+SHORT_MONTHS = {1: "Jan.", 2: "Feb.", 3: "March", 4: "April", 5: "May", 6: "June",
+                7: "July", 8: "Aug.", 9: "Sept.", 10: "Oct.", 11: "Nov.", 12: "Dec."}
+
+
 def week_of_text(iso_date):
-    """'2026-10-19' -> 'Week of October 19, 2026' (None if there is no date)."""
+    """'2026-10-19' -> 'Week of Oct. 19' (None if there is no date)."""
     if not iso_date:
         return None
     d = dt.date.fromisoformat(iso_date)
-    return f"Week of {d:%B} {d.day}, {d.year}"
+    return f"Week of {SHORT_MONTHS[d.month]} {d.day}"
 
 
 def gf_ga_text(d):
