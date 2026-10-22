@@ -83,6 +83,14 @@ def team_image_path(team, suffix=""):
     return IMAGE_DIR.rstrip("\\") + "\\" + safe + suffix + IMAGE_EXT
 
 
+def week_of_text(iso_date):
+    """'2026-10-19' -> 'Week of October 19, 2026' (None if there is no date)."""
+    if not iso_date:
+        return None
+    d = dt.date.fromisoformat(iso_date)
+    return f"Week of {d:%B} {d.day}, {d.year}"
+
+
 def gf_ga_text(d):
     """{'gf': 19, 'ga': 14} -> '19-14' (None if either is missing)."""
     gf, ga = d.get("gf"), d.get("ga")
@@ -225,7 +233,7 @@ def parse_uscho(html):
 
     if len(rows) < 10:
         raise ValueError(f"Only found {len(rows)} poll rows; expected 15")
-    return {"poll_date": poll_date, "rows": rows}
+    return {"poll_date": poll_date, "week_of": week_of_text(poll_date), "rows": rows}
 
 
 # -------------------------------------------------------------- fetching
