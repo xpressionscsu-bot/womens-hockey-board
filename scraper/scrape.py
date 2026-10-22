@@ -77,10 +77,10 @@ def combined_text(wlt, ow, ol, sw):
     return f"{wlt} ({ow}-{ol}-{sw})"
 
 
-def team_image_path(team):
+def team_image_path(team, suffix=""):
     """Build the Windows path to a team's image file from the team name."""
     safe = re.sub(r'[\\/:*?"<>|]', "", team).strip()  # characters Windows does not allow in file names
-    return IMAGE_DIR.rstrip("\\") + "\\" + safe + IMAGE_EXT
+    return IMAGE_DIR.rstrip("\\") + "\\" + safe + suffix + IMAGE_EXT
 
 
 def gf_ga_text(d):
@@ -216,6 +216,7 @@ def parse_uscho(html):
             "rank": to_int(get("rank"), len(rows) + 1),
             "team": team,
             "image_path": team_image_path(team),
+            "image_path_2": team_image_path(team, "_2"),
             "first_place_votes": fpv or 0,
             "record": get("record") or None,
             "points": to_int(get("pts")),
