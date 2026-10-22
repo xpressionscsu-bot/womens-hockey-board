@@ -236,17 +236,37 @@ def fetch_static(url):
     return r.text
 
 
-def fetch_rendered(url):
-    """USCHO builds its poll table with JavaScript, so load it in a real browser."""
+def fetch_rendered(url, attempts=3):
+    """USCHO builds its poll table with JavaScript, so load it in a real browser.
+
+    Waits for the table itself instead of for the whole page to go quiet (ads and
+    trackers can keep a page busy forever), skips images and fonts to load faster,
+    and tries up to three times before giving up."""
     from playwright.sync_api import sync_playwright
+    last = None
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        page = browser.new_page(user_agent=UA)
-        page.goto(url, wait_until="networkidle", timeout=60000)
-        page.wait_for_selector("table tbody tr", timeout=30000)
-        html = page.content()
-        browser.close()
-    return html
+        try:
+            for attempt in range(1, attempts + 1):
+                page = browser.new_page(user_agent=UA)
+                page.route(
+                    "**/*",
+                    lambda route: route.abort()
+                    if route.request.resource_type in ("image", "media", "font")
+                    else route.continue_(),
+                )
+                try:
+                    page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                    page.wait_for_selector("table tbody tr", timeout=45000)
+                    return page.content()
+                except Exception as exc:  # noqa: BLE001 - try again, then report the last error
+                    last = exc
+                    print(f"  attempt {attempt} of {attempts} failed: {str(exc).splitlines()[0]}", file=sys.stderr)
+                finally:
+                    page.close()
+        finally:
+            browser.close()
+    raise last
 
 
 # ------------------------------------------------------------------ main
