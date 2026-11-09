@@ -2,8 +2,8 @@
   "poll": {
     "source": "https://www.uscho.com/rankings/d-i-womens-poll/",
     "name": "USCHO.com Division I Women's Poll",
-    "poll_date": "2026-11-02",
-    "week_of": "Week of Nov. 2",
+    "poll_date": "2026-11-09",
+    "week_of": "Week of Nov. 9",
     "rows": [
       {
         "rank": 1,
@@ -22,7 +22,7 @@
         "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Minnesota_2.png",
         "first_place_votes": 0,
         "record": "9-1-0",
-        "points": 276,
+        "points": 277,
         "last_rank": 2
       },
       {
@@ -32,28 +32,28 @@
         "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Wisconsin_2.png",
         "first_place_votes": 0,
         "record": "8-2-0",
-        "points": 263,
+        "points": 262,
         "last_rank": 3
       },
       {
         "rank": 4,
-        "team": "Northeastern",
-        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Northeastern.png",
-        "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Northeastern_2.png",
-        "first_place_votes": 0,
-        "record": "7-1-1",
-        "points": 232,
-        "last_rank": 4
-      },
-      {
-        "rank": 5,
         "team": "Princeton",
         "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Princeton.png",
         "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Princeton_2.png",
         "first_place_votes": 0,
-        "record": "6-0-0",
-        "points": 210,
-        "last_rank": 6
+        "record": "8-0-0",
+        "points": 231,
+        "last_rank": 5
+      },
+      {
+        "rank": 5,
+        "team": "Northeastern",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Northeastern.png",
+        "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Northeastern_2.png",
+        "first_place_votes": 0,
+        "record": "8-1-2",
+        "points": 216,
+        "last_rank": 4
       },
       {
         "rank": 6,
@@ -61,9 +61,9 @@
         "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Quinnipiac.png",
         "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Quinnipiac_2.png",
         "first_place_votes": 0,
-        "record": "8-2-1",
-        "points": 183,
-        "last_rank": 5
+        "record": "10-2-1",
+        "points": 210,
+        "last_rank": 6
       },
       {
         "rank": 7,
@@ -72,7 +72,7 @@
         "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Penn State_2.png",
         "first_place_votes": 0,
         "record": "9-3-0",
-        "points": 163,
+        "points": 173,
         "last_rank": 7
       },
       {
@@ -81,58 +81,58 @@
         "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Colgate.png",
         "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Colgate_2.png",
         "first_place_votes": 0,
-        "record": "8-2-0",
-        "points": 153,
+        "record": "8-4-0",
+        "points": 126,
         "last_rank": 8
       },
       {
         "rank": 9,
-        "team": "Clarkson",
-        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Clarkson.png",
-        "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Clarkson_2.png",
-        "first_place_votes": 0,
-        "record": "10-2-0",
-        "points": 129,
-        "last_rank": 10
-      },
-      {
-        "rank": 10,
         "team": "St. Cloud State",
         "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\St. Cloud State.png",
         "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\St. Cloud State_2.png",
         "first_place_votes": 0,
         "record": "8-4-0",
-        "points": 117,
+        "points": 124,
+        "last_rank": 10
+      },
+      {
+        "rank": 10,
+        "team": "Clarkson",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Clarkson.png",
+        "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Clarkson_2.png",
+        "first_place_votes": 0,
+        "record": "11-3-0",
+        "points": 112,
         "last_rank": 9
       },
       {
         "rank": 11,
-        "team": "Yale",
-        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Yale.png",
-        "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Yale_2.png",
+        "team": "Connecticut",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Connecticut.png",
+        "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Connecticut_2.png",
         "first_place_votes": 0,
-        "record": "2-1-1",
-        "points": 116,
-        "last_rank": 14
+        "record": "6-4-2",
+        "points": 99,
+        "last_rank": 13
       },
       {
-        "rank": 12,
+        "rank": 11,
         "team": "Minnesota Duluth",
         "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Minnesota Duluth.png",
         "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Minnesota Duluth_2.png",
         "first_place_votes": 0,
         "record": "6-4-0",
-        "points": 89,
-        "last_rank": 13
+        "points": 99,
+        "last_rank": 12
       },
       {
         "rank": 13,
-        "team": "Connecticut",
-        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Connecticut.png",
-        "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Connecticut_2.png",
+        "team": "Yale",
+        "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Yale.png",
+        "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Yale_2.png",
         "first_place_votes": 0,
-        "record": "4-4-2",
-        "points": 76,
+        "record": "3-2-1",
+        "points": 80,
         "last_rank": 11
       },
       {
@@ -141,9 +141,9 @@
         "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Cornell.png",
         "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Cornell_2.png",
         "first_place_votes": 0,
-        "record": "4-2-0",
-        "points": 54,
-        "last_rank": 12
+        "record": "4-4-0",
+        "points": 49,
+        "last_rank": 14
       },
       {
         "rank": 15,
@@ -151,13 +151,13 @@
         "image_path": "D:\\HOCKEY\\Images\\TEAM COLORS\\Boston College.png",
         "image_path_2": "D:\\HOCKEY\\Images\\TEAM COLORS\\Boston College_2.png",
         "first_place_votes": 0,
-        "record": "6-3-0",
-        "points": 28,
+        "record": "6-5-0",
+        "points": 22,
         "last_rank": 15
       }
     ],
     "status": "ok",
-    "updated_at": "2026-11-02T20:10:43+00:00"
+    "updated_at": "2026-11-09T20:17:05+00:00"
   },
   "standings": {
     "source": "https://wcha.com/standings.aspx?standings=7&path=whockey",
@@ -400,5 +400,5 @@
     "status": "ok",
     "updated_at": "2026-11-01T11:40:38+00:00"
   },
-  "generated_at": "2026-11-02T20:10:43+00:00"
+  "generated_at": "2026-11-09T20:17:06+00:00"
 }
