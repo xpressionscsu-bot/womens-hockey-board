@@ -2,7 +2,7 @@ name: Update data and deploy site
 
 on:
   schedule:
-    - cron: "15 11 * * *"         # every day, about 6 AM Central: standings
+    - cron: "15 11 * * *"         # every day, about 10:30 AM Central: standings
     - cron: "30 15,19,23 * * 1,2" # Monday and Tuesday afternoons: the weekly poll
   workflow_dispatch:               # Actions tab > Run workflow
   push:
@@ -20,9 +20,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -64,9 +61,17 @@ jobs:
 
       - uses: actions/configure-pages@v5
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
+  # Publishing is its own job so it only starts after the upload has fully finished.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
